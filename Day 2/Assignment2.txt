@@ -1,0 +1,11 @@
+Create an interface called IBookManager that has methods:
+1. add a new Book
+2. delete a book based on Id
+3. Find books based on title
+4. update Book details based on Id. 
+Create a class called Book that has the following properties: BookID, Title, Author, Price. 
+Create a Class called BookManager that has private data of the type Book Array in it.
+Implement the IBookManager inside the BookManager class. 
+Create a Program on Book Software management with a menu driven program that performs different operations based on the inputs given to the Menu. 
+The Application should be continuosly running till the user presses an option to exit the application. 
+

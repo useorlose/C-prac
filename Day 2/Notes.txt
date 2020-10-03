@@ -1,0 +1,31 @@
+﻿SOLID Principle:
+What are the features of OOP?
+Inheritance
+Polymorphism
+Abstraction
+Encapsulation. 
+
+Solid Principles:
+The Designing priciples of OOP is made available as SOLID Principle
+Single Responsibility Principle
+Open-Closed Principle.
+Liskov's substitution principle
+Interface segregation Principle
+Dependency Inversion Principle. 
+
+Single Responsibility Principle insists on one class to do one task. This task could be a group of operations of  a similar functionality. This leads to the concept of Multi Tier Applications where each tier will have a relative group of classes that do similar jobs.
+
+Open Closed Principle: A class is closed for modification but is open for extension. It implies that the class once created is not supposed to be modified. Instead, the class can be extended and allowed to be modified in that class. 
+Modification could be either modifying the existing methods or adding new methods. 
+The feature of inheritance is based on this principle. 
+C# supports single inheritance, even though OOP supports classes to inherit from multiple base classes at the same level. 
+
+Liskov's Substitution principle says that a Class object can be substituted by its any of the sub classes as long as it does not alter the correctness of the program. 
+It implies that if a certain class is extended to modify the existing functions without altering it with new functions, U can substitute them with any of such sub classes. This concept leads to Method overriding feature which is one form of Polymorphism. In this case, methods are altered in the sub classes without modifying their function signature: name, parameters, its types and its order. 
+This is the principle behind the concept of base class objects getting instantiated to the derived class objects as they are substituted by its sub types.
+
+Interface segregation Principle says to have specific interfaces for each of the clients instead of one generic interface. Interface is a semantically grouped functions with no specific implementations. U should create each class targetting a specific audience. U should not create generic class and expose it to the client. 
+
+Dependency Inversion principle states that it is better to work with abstract Classes rather than concrete classes. It implies that UR functions when returning an object should return the abstract class instance(Super base class) rather than its derived sub types. 
+"The Code should be depend on Abstractness rather than concreteness"
+ 
